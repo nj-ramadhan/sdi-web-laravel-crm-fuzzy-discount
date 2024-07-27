@@ -57,6 +57,16 @@ class User extends Authenticatable
         ];
     }
 
+        /**
+     * phone
+     *
+     * @return void
+     */
+    public function phone()
+    {
+    	return $this->hasOne(Phone::class);
+    }
+
     protected static function boot()
     {
         parent::boot();

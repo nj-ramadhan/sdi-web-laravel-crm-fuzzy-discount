@@ -8,7 +8,7 @@
             </a>
 
             <div class="mt-8 text-center">
-                <h4 class="mb-1 text-custom-500 dark:text-custom-500">Daftar akun SIKOHIM</h4>
+                <h4 class="mb-1 text-custom-500 dark:text-custom-500">Daftar akun HG BABY CRM APP</h4>
                 <p class="text-slate-500 dark:text-zink-200">Dapatkan akun secara gratis</p>
             </div>
 

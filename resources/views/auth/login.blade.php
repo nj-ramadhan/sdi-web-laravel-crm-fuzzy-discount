@@ -9,7 +9,7 @@
 
             <div class="mt-8 text-center">
                 <h4 class="mb-1 text-custom-500 dark:text-custom-500">Selamat Datang !</h4>
-                <p class="text-slate-500 dark:text-zink-200">Masuk untuk menggunakan SIKOHIM</p>
+                <p class="text-slate-500 dark:text-zink-200">Masuk untuk menggunakan HG BABY CRM APP</p>
             </div>
 
             <form action="{{ route('login') }}" class="mt-10" id="" method="POST">

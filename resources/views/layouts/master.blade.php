@@ -2,7 +2,7 @@
 <html lang="en" class="light scroll-smooth group" data-layout="vertical" data-sidebar="light" data-sidebar-size="lg" data-mode="light" data-topbar="light" data-skin="default" data-navbar="sticky" data-content="fluid" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>SIKOHIM | Sistem Informasi Pengelolaan Kegiatan Organisasi Himpunan</title>
+    <title>HG BABY CRM APP | Sistem Informasi Pengelolaan Kegiatan Organisasi Himpunan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta content="Minimal Admin & Dashboard Template" name="description">
     <meta content="StarCode Kh" name="author">
@@ -251,7 +251,7 @@
                                     </div>
                                 </button>
                                 <div class="absolute z-50 hidden p-4 ltr:text-left rtl:text-right bg-white rounded-md shadow-md !top-4 dropdown-menu min-w-[14rem] dark:bg-zink-600" aria-labelledby="dropdownMenuButton">
-                                    <h6 class="mb-2 text-sm font-normal text-slate-500 dark:text-zink-300">Selamat datang di SIKOHIM</h6>
+                                    <h6 class="mb-2 text-sm font-normal text-slate-500 dark:text-zink-300">Selamat datang di HG BABY CRM APP</h6>
                                     <a href="#!" class="flex gap-3 mb-3">
                                         <div class="relative inline-block shrink-0">
                                             <div class="rounded bg-slate-100 dark:bg-zink-500">
@@ -260,7 +260,7 @@
                                             <span class="-top-1 ltr:-right-1 rtl:-left-1 absolute w-2.5 h-2.5 bg-green-400 border-2 border-white rounded-full dark:border-zink-600"></span>
                                         </div>
                                         <div>
-                                            <h6 class="mb-1 text-15">SIKOHIM</h6>
+                                            <h6 class="mb-1 text-15">HG BABY CRM APP</h6>
                                             <p class="text-slate-500 dark:text-zink-300">Web Developer</p>
                                         </div>
                                     </a>
@@ -438,7 +438,7 @@
                 <div class="group-data-[layout=horizontal]:mx-auto group-data-[layout=horizontal]:max-w-screen-2xl w-full">
                     <div class="grid items-center grid-cols-1 text-center lg:grid-cols-2 text-slate-400 dark:text-zink-200 ltr:lg:text-left rtl:lg:text-right">
                         <div>
-                            <script>document.write(new Date().getFullYear())</script> SIKOHIM
+                            <script>document.write(new Date().getFullYear())</script> HG BABY CRM APP
                         </div>
                         <div class="hidden lg:block">
                             <div class="ltr:text-right rtl:text-left">

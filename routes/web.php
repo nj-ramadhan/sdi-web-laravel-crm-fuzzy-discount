@@ -20,10 +20,6 @@ Route::group(['middleware'=>'auth'],function()
     {
         return view('dashboard.home');
     });
-    Route::get('home',function()
-    {
-        return view('dashboard.home');
-    });
 });
 
 Auth::routes();
@@ -65,10 +61,23 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
     });
 });
 
-Route::resource('/mahasiswa', \App\Http\Controllers\MahasiswaController::class);
-Route::resource('/aspirasi', \App\Http\Controllers\AspirasiController::class);
-Route::resource('/berkas_program', \App\Http\Controllers\BerkasProgramController::class);
-Route::resource('/presensi_piket', \App\Http\Controllers\PresensiPiketController::class);
-Route::resource('/uang_kas', \App\Http\Controllers\UangKasController::class);
+Route::group(['namespace' => 'App\Http\Controllers'],function()
+{
+    // -------------------------- main dashboard ----------------------//
+    Route::controller(CustomerController::class)->group(function () {
+        Route::get('/customers', 'index')->middleware('auth')->name('customers');
+        // Route::post('/customers', 'create')->middleware('auth')->name('customers.create');
+        Route::post('/customers', 'store')->middleware('auth')->name('customers.store');
+    });
+});
 
+
+/**
+ * @path /posts
+ * @method GET
+ */
+Route::get('/posts', [\App\Http\Controllers\PostController::class, 'index']);
+
+Route::resource('/transactions', \App\Http\Controllers\TransactionController::class);
+// Route::resource('/customers', \App\Http\Controllers\CustomerController::class);
 
